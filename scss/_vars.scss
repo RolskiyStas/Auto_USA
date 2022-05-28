@@ -1,0 +1,28 @@
+$accent: #5A0D67;
+$brand: #21062A;
+$text: #2C2B2B;
+$grey: #C4C4C4;
+$regular-text: 18px;
+$lineheight: 1.55;
+$userfont: oswald-au, sans-serif;
+$systemfont: -apple-system, BlinkMacSystemFont, Arial, sans-serif;
+$transition: .5s cubic-bezier(.42, .61, .58, .41);
+
+// Container & Breakpoints
+$containerWidth: 1200 + px;
+$containerPadding: 15 + px;
+
+$breakpoint1140: 1139.98 + px;
+$breakpoint1024: 1023.98 + px;
+$breakpoint900: 899.98 + px;
+$breakpoint768: 767.98 + px;
+$breakpoint650: 649.98 + px;
+$breakpoint600: 599.98 + px;
+$breakpoint520: 519.98 + px;
+$breakpoint360: 359.98 + px;
+$breakpoint340: 339.98 + px;
+
+// Burger Menu
+// $burgerBreakpoint: $breakpoint992;
+// $burgerColor: #000;
+// $burgerActiveColor: #fff;

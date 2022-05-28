@@ -1,0 +1,48 @@
+.benefits {
+	margin-bottom: 100px;
+
+	&__inner {
+		display: flex;
+		gap: 95px;
+	}
+
+	&__content {
+		width: 100%;
+		color: #FFFFFF;
+	}
+
+	&__title {
+		margin-left: 185px;
+	}
+
+	&__list {
+		background-color: $brand;
+		padding: 23px 20px 25px 185px;
+	}
+
+	&__item {
+		max-width: 320px;
+		margin-bottom: 20px;
+		width: 100%;
+	}
+
+	&__item-num {
+		font-weight: 400;
+		font-size: 36px;
+		line-height: 53px;
+		text-transform: uppercase;
+	}
+
+	&__item-title {
+		font-weight: 300;
+		font-size: 24px;
+		line-height: 36px;
+	}
+
+	&__item-text {
+		font-weight: 300;
+		font-size: 18px;
+		line-height: 27px;
+		color: $grey;
+	}
+}

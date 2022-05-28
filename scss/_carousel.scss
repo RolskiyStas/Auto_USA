@@ -1,0 +1,63 @@
+.carousel {
+	margin-bottom: 100px;
+
+	&__inner {
+		margin: 0 -7px;
+	}
+
+	&__item {
+		margin: 0 7px;
+	}
+
+	&__item-box {
+		border: 1px solid $grey;
+		padding: 6px 6px 16px 6px;
+		text-align: center;
+		transition: $transition;
+		&:hover {
+			color: #fff;
+			background-color: $accent;
+			border: 1px solid $accent;
+		}
+	}
+	
+
+	&__item-img {
+		max-width: 100%;
+		margin-bottom: 23px;
+		width: 100%;
+	}
+
+	&__item-title {
+		font-weight: 300;
+		margin-bottom: 5px;
+	}
+
+	&__item-text {
+		font-weight: 300;
+	}
+	.slick-dots{
+		display: flex;
+		justify-content: center;
+		gap: 20px;
+		list-style: none;
+		button {
+			font-size: 0;
+			border: none;
+			padding: 0;
+			margin: 0 10px;
+			background-color: $grey;
+			width: 50px;
+			height: 1px;
+		}
+	}
+	.slick-active{
+		button {
+			background-color: $accent;
+			height: 3px;
+			&:focus {
+				outline: 0 solid $accent;
+			}
+		}
+	}
+}

@@ -1,0 +1,61 @@
+.header {
+	background-image: url('../images/header/header_bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+	min-height: 700px;
+	color: #fff;
+
+	&__top {
+		padding: 45px 0;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	&__content {
+		position: relative;
+		margin-top: 60px;
+	}
+
+	&__title {
+		font-weight: 400;
+		font-size: 72px;
+		line-height: 107px;
+		text-transform: uppercase;
+	}
+
+	&__subtitle {
+		font-weight: 400;
+		font-size: 36px;
+		line-height: 53px;
+		text-transform: uppercase;
+	}
+
+	&__text {
+		max-width: 800px;
+		width: 100%;
+		margin: 30px 0;
+		font-weight: 300;
+		font-size: 18px;
+		line-height: 27px;
+	}
+
+	&__social {
+		max-width: 250px;
+		padding: 70px 0 20px;
+		width: 100%;
+	}
+
+	&__img {
+		position: absolute;
+		right: 0;
+		bottom: -270px;
+	}
+}
+
+.phono {
+	font-weight: 400;
+	font-size: 36px;
+	line-height: 53px;
+}

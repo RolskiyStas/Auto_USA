@@ -1,0 +1,21 @@
+.footer {
+	background-color: $brand;
+
+	&__inner {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		color: #fff;
+		height: 100px;
+	}
+
+	&__copy {
+		display: inline-block;
+		font-weight: 300;
+		font-size: 18px;
+		line-height: 27px;
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+}
